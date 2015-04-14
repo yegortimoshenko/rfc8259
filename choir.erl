@@ -2,13 +2,13 @@
 %% Best at office at night.
 
 -module(choir).
--export([start/0, start_world/0, say/1, say/2]).
+-export([start/0, start_world/0, say/1, say/3]).
 
 start() -> register(?MODULE, spawn(fun loop/0)).
 
 loop() ->
-    receive Msg ->
-        os:cmd("say '" ++ Msg ++ "'"),
+    receive {Message, Voice} ->
+        os:cmd(io_lib:format("say -v '~s' '~s'", [Voice, Message])),
         loop()
     end.
 
@@ -16,9 +16,11 @@ world() -> [node()|nodes()].
 
 start_world() -> rpc:multicall(world(), ?MODULE, start, []).
 
-say(Message) -> say(Message, world()).
+say(Message) -> say(Message, "Kyoko").
 
-say(Message, [H|T]) -> 
-    {?MODULE, H} ! {self(), Message},
-    say(Message, T);
-say(_, []) -> ok.
+say(Message, Voice) -> say(Message, Voice, world()).
+
+say(Message, Voice, [H|T]) -> 
+    {?MODULE, H} ! {Message, Voice},
+    say(Message, Voice, T);
+say(_, _, []) -> ok.
