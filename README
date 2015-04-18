@@ -1,0 +1,11 @@
+Minimal JSON parsing module that both encodes and decodes.
+When encoding, JSON types are mapped to Erlang terms as follows:
+
+* JSON object is Erlang map
+* JSON string is Erlang binary
+* JSON list is Erlang list
+* JSON numbers are Erlang numbers
+
+When decoding, everything is vice versa except strings. Strings are
+parsed to lists. You can alter this behavior to fit your preferences
+by editing decode_string/2 in this file.
