@@ -45,10 +45,10 @@ Here is a comparison of JSON encoding between Erlang implementations:
 
 Implementations | Microseconds | Baseline speed | Lines of code              | Dependencies      | Pure?
 ----------------|--------------|----------------|----------------------------|-------------------|------
-[jiffy][]       | 656469       | 2.03x          | 166 Erlang + 2449 C        | double-conversion | ✗
-**json**        | **1339192**  | **1x**         | **108**                    | **✗**             | **✓**
-[json2][]       | 2166589      | 0.62x          | 542                        | ✗                 | ✓
-[json_eep][]    | 5006786      | 0.26x          | 349                        | leex              | ✓
+[jiffy][]       | 272805       | 2.929x         | 166 Erlang + 2449 C        | double-conversion | ✗
+**json**        | **799019**   | **1x**         | **115**                    | **✗**             | **✓**
+[json2][]       | 1613420      | 0.495x         | 542                        | ✗                 | ✓
+[json_eep][]    | 3628160      | 0.22x          | 349                        | leex              | ✓
 
 Decoding
 --------
