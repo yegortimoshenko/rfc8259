@@ -2,8 +2,8 @@ json
 ====
 
 Simple, pure, optimized JSON module that both encodes and decodes.
-Use it when you need a pure Erlang module, or when you want to roll your own JSON module,
-or when you need a simple module without dependencies that just works. Otherwise, use [Jiffy][].
+Use it when you need a clean, pure Erlang module without dependencies that just works
+and can be easily audited. Use [Jiffy][] if you seek performance.
 
 Encoding
 --------
