@@ -96,8 +96,8 @@ Benchmarks
 ----------
 
 Benchmarks are done on [MTG JSON v2.19.2](http://mtgjson.com) `AllSets.json` file
-using `timer:tc/3` function. The host is MacBook Air 13″ Mid 2013. The operating system is OS X.
-Erlang settings are as follows:
+using `timer:tc/3` function. Each implementation is tested five times, the lowest time is used.
+The host is MacBook Air 13″ Mid 2013. The operating system is OS X. Erlang settings are as follows:
 
 ```
 Erlang/OTP 17 [erts-6.4] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
