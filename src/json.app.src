@@ -1,8 +1,6 @@
-{application, json, [
-  {description, "JSON encoder/decoder"},
-  {vsn, "0.5.0"},
+{application, json,
+ [{description, "JSON encoder/decoder"},
+  {vsn, "20180325.190811"},
   {modules, [json]},
-  {registered, []},
-  {applications, [kernel, stdlib]},
-  {env, []}
-]}.
+  {applications, [kernel, stdlib]}
+ ]}.
