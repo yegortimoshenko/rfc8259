@@ -1,4 +1,4 @@
--module(json).
+-module(rfc8259).
 
 -export([encode/1, decode/1]).
 -define(is_digit(X), X >= 48, X =< 57).

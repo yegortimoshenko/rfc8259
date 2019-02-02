@@ -1,7 +1,7 @@
 { pkgs ? import ./pkgs.nix {} }: with pkgs;
 
 stdenv.mkDerivation {
-  name = "json";
+  name = "rfc8259";
   buildInputs = [
     erlang
     pandoc

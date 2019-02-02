@@ -1,0 +1,5 @@
+{application, rfc8259,
+ [{applications, [kernel, stdlib]},
+  {description, "JSON encoder/decoder"},
+  {modules, [rfc8259]},
+  {vsn, "20190202.160958"}]}.
