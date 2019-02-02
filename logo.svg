@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="500"
+   height="500"
+   id="svg-001"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="0.52149125"
+     inkscape:cx="181.39095"
+     inkscape:cy="209.61469"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg-001" />
+  <title
+     id="title-001">JSON logo</title>
+  <defs
+     id="gradients-001">
+    <linearGradient
+       id="linearGradient4568">
+      <stop
+         offset="0"
+         style="stop-color:#a90533;stop-opacity:1"
+         id="stop4564" />
+      <stop
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1"
+         id="stop4566" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8385">
+      <stop
+         id="stop8387"
+         style="stop-color:#a90533;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop8389"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="-553.26971"
+       y1="525.90778"
+       x2="-666.11639"
+       y2="413.0452"
+       id="linearGradient3002"
+       xlink:href="#linearGradient8385"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.121375,0,0,3.1209344,2153.1492,-1215.1367)" />
+    <linearGradient
+       x1="-666.11664"
+       y1="413.04492"
+       x2="-553.2699"
+       y2="525.90759"
+       id="linearGradient3005"
+       xlink:href="#linearGradient4568"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.121375,0,0,3.1209344,2153.1492,-1215.1367)" />
+  </defs>
+  <metadata
+     id="metadata-json-logo">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>JSON logo</dc:title>
+        <dc:date>2011-09-05 22:42:49</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>fzap</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>PD</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>openclipart.org</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:description>JSON-Logo adapted from the JSON-Website: http://json.org</dc:description>
+        <dc:language>en_GB</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>json</rdf:li>
+            <rdf:li>logo</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="M 249.57687,372.18618 C 360.19463,522.98411 468.45053,330.09705 468.2915,214.10258 468.10338,76.958678 329.10116,0.3098025 249.48625,0.3098025 121.69744,0.3098025 0,105.92255 0,250.42196 0,411.03446 139.50119,499.99999 249.48625,499.99999 224.59728,496.4164 141.65437,478.6439 140.53962,287.60383 139.79003,158.39571 182.68828,106.77412 249.30609,129.4818 c 1.49197,0.55335 73.481,28.9516 73.481,121.72041 0,92.37475 -73.21022,120.98397 -73.21022,120.98397 z"
+     id="path7508"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient3005);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.5625;marker:none"
+     inkscape:connector-curvature="0" />
+  <path
+     d="M 249.44772,129.37755 C 176.35381,104.18418 86.813281,164.42696 86.813281,285.09258 86.813281,482.11752 232.815,499.99999 250.51378,499.99999 378.30259,499.99999 500,394.38724 500,249.88783 500,89.275334 360.49881,0.3098025 250.51378,0.3098025 280.97663,-3.9089475 414.704,33.278271 414.704,216.0498 c 0,119.19116 -99.85269,184.078 -164.79834,156.3545 -1.49197,-0.55334 -73.481,-28.95159 -73.481,-121.7204 0,-92.37475 73.02306,-121.30635 73.02306,-121.30635 z"
+     id="path7510"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient3002);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.5625;marker:none"
+     inkscape:connector-curvature="0" />
+</svg>
