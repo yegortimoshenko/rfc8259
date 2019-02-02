@@ -97,8 +97,6 @@ encode_map_pair(_) -> error(badarg).
 %% {error, infinity} = json:decode(<<"1e1000">>).
 %% '''
 %%
-%% Does <em>not</em> preserve key order in objects, as per RFC 7159.
-%%
 %% Throws {@type badarg} if JSON is not of type {@type iodata()}.
 decode(String) when is_list(String) -> decode(list_to_binary(String));
 decode(Bin) when is_binary(Bin) ->
