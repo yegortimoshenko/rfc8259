@@ -9,41 +9,6 @@
 -spec encode(Term) -> JSON when Term :: term(), JSON :: iodata().
 %% @doc Encode Term as a JSON value.
 %%
-%% <table>
-%%   <tr>
-%%     <th>Term</th>
-%%     <th>JSON</th>
-%%   </tr>
-%%   <tr>
-%%     <td>{@type false}</td>
-%%     <td>false</td>
-%%   </tr>
-%%   <tr>
-%%     <td>{@type null}</td>
-%%     <td>null</td>
-%%   </tr>
-%%   <tr>
-%%     <td>{@type true}</td>
-%%     <td>true</td>
-%%   </tr>
-%%   <tr>
-%%     <td>{@type binary()}</td>
-%%     <td>string</td>
-%%   </tr>
-%%   <tr>
-%%     <td>{@type map()}</td>
-%%     <td>object</td>
-%%   </tr>
-%%   <tr>
-%%     <td>{@type list()}</td>
-%%     <td>array</td>
-%%   </tr>
-%%   <tr>
-%%     <td>{@type number()}</td>
-%%     <td>number</td>
-%%   </tr>
-%% </table>
-%%
 %% Note that {@type string()} is treated as an array of numbers:
 %% ```
 %% <<"[106,111,101]">> = iolist_to_binary(json:encode("joe")).
@@ -94,41 +59,6 @@ encode_map_pair(_) -> error(badarg).
 				       | unterminated_object
 				       | unterminated_string.
 %% @doc Decode JSON value to Term. Unconsumed characters are returned as Rest.
-%%
-%% <table>
-%%   <tr>
-%%     <th>JSON</th>
-%%     <th>Term</th>
-%%   </tr>
-%%   <tr>
-%%     <td>array</td>
-%%     <td>{@type list()}</td>
-%%   </tr>
-%%   <tr>
-%%     <td>false</td>
-%%     <td>{@type false}</td>
-%%   </tr>
-%%   <tr>
-%%     <td>number</td>
-%%     <td>{@type number()}</td>
-%%   </tr>
-%%   <tr>
-%%     <td>null</td>
-%%     <td>{@type null}</td>
-%%   </tr>
-%%   <tr>
-%%     <td>object</td>
-%%     <td>{@type map()}</td>
-%%   </tr>
-%%   <tr>
-%%     <td>string</td>
-%%     <td>{@type binary()}</td>
-%%   </tr>
-%%   <tr>
-%%     <td>true</td>
-%%     <td>{@type true}</td>
-%%   </tr>
-%% </table>
 %%
 %% Decoding is more lenient than the standard in the following:
 %% <ul>

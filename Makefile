@@ -3,6 +3,6 @@ public: README.edoc src/json.erl
 		'[{dir, "$@"}, {overview, "README.edoc"}, {sort_functions, false}]'
 
 %.edoc: %.md
-	(echo @doc; cmark $<) > $@
+	(echo @doc; pandoc $<) > $@
 
 .INTERMEDIATE: README.edoc

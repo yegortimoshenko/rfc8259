@@ -3,8 +3,8 @@
 stdenv.mkDerivation {
   name = "json";
   buildInputs = [
-    cmark
     erlang
+    pandoc
     rebar3
   ];
 }
