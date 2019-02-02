@@ -1,4 +1,3 @@
 _build
-*.beam
-*.edoc
-*.lock
+public
+rebar.lock

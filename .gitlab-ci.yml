@@ -1,0 +1,17 @@
+image: nixos/nix
+
+build:
+  stage: build
+  script: nix-shell --run make
+  artifacts:
+    paths:
+    - public
+
+pages:
+  stage: deploy
+  script: ':'
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
